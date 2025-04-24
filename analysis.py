@@ -27,3 +27,10 @@ for column in numeric_columns:
     plt.tight_layout()
     plt.savefig(f"images/histogram_{column}.png")
     plt.close()
+
+# 4. Create scatter plot matrix (pairplot)
+sns.pairplot(df, hue="species", corner=True)
+plt.suptitle("Pair Plot of Iris Features", y=1.02)
+plt.savefig("images/pairplot_all.png")
+plt.close()
+
