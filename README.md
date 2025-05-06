@@ -7,6 +7,17 @@ Eder Olimpio
 
 ---
 
+## Project Overview
+
+This project performs an exploratory data analysis (EDA) of the Iris dataset using Python. It includes:
+
+- Summary statistics
+- Histograms of each numeric variable
+- A scatterplot matrix (pairplot)
+- A correlation heatmap
+
+---
+
 ## Dataset Information
 
 The dataset used in this project is the Iris dataset, first introduced by the British statistician and biologist Ronald Fisher in 1936.
@@ -26,18 +37,7 @@ This dataset is widely used for data visualization and machine learning tutorial
 
 ---
 
-## Project Overview
-
-This project performs an exploratory data analysis (EDA) of the Iris dataset using Python. It includes:
-
-- Summary statistics
-- Histograms of each numeric variable
-- A scatterplot matrix (pairplot)
-- A correlation heatmap
-
----
-
-## Files
+## Project Structure
 
 - `iris.csv` — Dataset file
 - `analysis.py` — Main script performing the analysis
