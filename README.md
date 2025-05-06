@@ -58,11 +58,11 @@ This project performs an exploratory data analysis (EDA) of the Iris dataset usi
 
 1. **Run the Analysis Script**
 
-  In the terminal, run:
+   In the terminal, run:
 
-  ```bash
-  python analysis.py
-  ```
+   ```bash
+   python analysis.py
+   ```
 
   This will:
 
@@ -80,11 +80,13 @@ This project performs an exploratory data analysis (EDA) of the Iris dataset usi
 
 - Uses ```pandas.describe()``` to calculate count, mean, standard deviation, min, max, and percentiles for all numeric columns.
 
+
 2. **Histograms**
 
 - One histogram per numeric variable using ```seaborn.histplot()```.
 
 - Shows the distribution of values for each feature across all species.
+
 
 3. **Pairplot (Scatterplot Matrix)**
 
@@ -93,6 +95,7 @@ This project performs an exploratory data analysis (EDA) of the Iris dataset usi
 - Visualizes the relationships between all pairs of numeric features.
 
 - Colored by species to reveal class separation.
+
 
 4. **Correlation Heatmap**
 
