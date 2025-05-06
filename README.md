@@ -128,3 +128,51 @@ This project performs an exploratory data analysis (EDA) of the Iris dataset usi
 - Generate meaningful data visualizations using seaborn and matplotlib
 
 - Save output to files and structure a Python analysis script professionally
+
+---
+
+---
+
+## Project Plan Summary
+
+This section outlines the major steps followed to complete the project:
+
+1. **Initial Setup**
+   - Created GitHub repo: `pands-project`
+   - Created and activated Python virtual environment
+   - Installed required packages: `pandas`, `matplotlib`, `seaborn`
+
+2. **Data Preparation**
+   - Downloaded and reviewed the Iris dataset
+   - Placed `iris.csv` in the working directory
+
+3. **Analysis Script (`analysis.py`)**
+   - Loaded and inspected the dataset
+   - Calculated summary statistics
+   - Saved summary to `summary.txt`
+   - Created and saved histograms of all features
+   - Generated scatter plots for all feature pairs
+   - Created a correlation heatmap for advanced insights
+
+4. **Documentation**
+   - Wrote this `README.md` with:
+     - Dataset description
+     - Setup and usage instructions
+     - Description of analysis performed
+     - Key findings and insights
+     - Project plan summary
+
+5. **Version Control**
+   - Used Git for tracking changes
+   - Pushed changes regularly with clear commit messages
+
+---
+
+## References
+
+- Fisher, R.A. (1936). The use of multiple measurements in taxonomic problems. *Annals of Eugenics*, 7(2), 179–188.
+- Iris dataset: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+
