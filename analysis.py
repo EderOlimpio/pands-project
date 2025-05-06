@@ -34,3 +34,11 @@ plt.suptitle("Pair Plot of Iris Features", y=1.02)
 plt.savefig("images/pairplot_all.png")
 plt.close()
 
+# 5. Create a correlation heatmap
+plt.figure(figsize=(8, 6))
+correlation = df.drop(columns='species').corr()
+sns.heatmap(correlation, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
+plt.title("Correlation Heatmap of Iris Features")
+plt.tight_layout()
+plt.savefig("images/heatmap_correlation.png")
+plt.close()
